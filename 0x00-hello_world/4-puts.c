@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: A programe tha prints using puts
+ * Description: A programe that prints using puts
  * Return: Always 0 (Success)
 */
 
