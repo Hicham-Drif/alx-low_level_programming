@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A programe that prints using write in unistd
- *		write(int fd,const void *buf,size_t count)
+ * Description: A programe that prints using write in unistd : write(int fd,const void *buf,size_t count)
  *
  * Return: 1 (not success)
 */
