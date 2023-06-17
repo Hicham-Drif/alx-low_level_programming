@@ -23,6 +23,6 @@ int main(void)
 	if (digit == 0)
 	printf("Last digit of %i is 0 and is 0\n", n);
 	if (digit < 6 && digit != 0)
-	printf("Last digit of %i is %i and is less than 6\n", n, digit);
+	printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 	return (0);
 }
