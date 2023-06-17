@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A programe tha prints alphabets
+ * Description: A programe tha prints alphabets in min and maj
  *
  * Return: Always 0 (Success)
 */
