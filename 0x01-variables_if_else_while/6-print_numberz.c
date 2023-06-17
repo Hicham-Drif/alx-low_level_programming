@@ -17,6 +17,6 @@ int main(void)
 	putchar(num + 48);
 	num++;
 	}
-	printf("\n");
+	putchat('\n');
 	return (0);
 }
