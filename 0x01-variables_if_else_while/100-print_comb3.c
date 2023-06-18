@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A programe tha prints 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 using only
- * putchar aand int var
+ * Description: A programe tha prints all possible combinations of two two-digit numbers.
  *
  * Return: Always 0 (Success)
 */
