@@ -28,18 +28,19 @@ int main(void)
 				putchar(num1 + 48);
 				putchar(num2 + 48);
 				putchar(num3 + 48);
+				    if (num1 + num2 + num3 != 24)
+				    {
+				    putchar(',');
+				    putchar(' ');
+                    }
 				}
-				if (num1 + num2 + num3 != 24)
-				{
-				putchar(',');
-				putchar(' ');
-				}
-			}
-			num3++;
-		}
+            num3++;
+            }
 		num2++;
+		}
+    num1++;
 	}
-	num1++;
+	;
 	putchar('\n');
 	return (0);
 }
