@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	int i, j;
+	int i = 0, j = 0;
 
-	for (i = 0; i < 100; i++)
+	while (i < 100)
 	{
-		for (j = 0; j < 100; j++)
+		j = 0;
+		while (j < 100)
 		{
 			if (i < j)
 			{
@@ -25,9 +26,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-
+			j++;
 		}
+		i++;
 	}
 	putchar('\n');
-	return (0);
+	return 0;
 }
