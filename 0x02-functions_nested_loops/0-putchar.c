@@ -1,18 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 #include "main.h"
+#include <unistd.h>
+
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description: A programe tha prints _putchar
+ * Description: A programe tha prints alphabets
  *
  * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-        void _putchar (void)
+	char str[] = "_putchar";
+	int i = 0;
+
+	while (i < 8)
 	{
-	 printf("_putchar\n");
+	_putchar(str[i]);
+	i++;
 	}
-        return (0);
+	_putchar('\n');
+	return (0);
 }
