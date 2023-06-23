@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-*Description: a fonction using _putchar function
-*to prints alphabets
+* * print_alphabet - print all alphabet in lowercase
+*using _putchar function
 *
 * Return: (void)
 */
