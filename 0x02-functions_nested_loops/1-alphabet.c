@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* print_alphabets() - is a fonction using _putchar function
+*Description: a fonction using _putchar function
 *to prints alphabets
 *
 * Return: (void)
