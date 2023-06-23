@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
-* * print_alphabet_x10 - print all alphabet in lowercase
-*using _putchar function
+*print_alphabet_x10 - print all alphabet in lowercase
+* 10 times using _putchar function
 *
 * Return: (void)
 */
