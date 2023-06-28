@@ -8,8 +8,11 @@
 int main(void)
 {
     char *str;
+	char* str2;
 
     str = "0123456789";
+    str2 = "hello world";
     puts2(str);
-    return (0);
+	puts2(str2);
+ return (0);
 }
