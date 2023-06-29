@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This repo is to practice programming  langages.
+Readme2 for pointers and arrays
