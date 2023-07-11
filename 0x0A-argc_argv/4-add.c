@@ -11,7 +11,7 @@
 * Return: 0 (Success), 1 (Error)
 */
 
-int isnumber (char *c);
+int isnumber(char *c);
 
 int main(int argc, char *argv[])
 {
@@ -36,17 +36,17 @@ int main(int argc, char *argv[])
 *
 * Return: 0 (Success), 1 (Error)
 */
-int isnumber (char *c)
+int isnumber(char *c)
 {
 	int len = 0, i = 0;
-	
+
 	while (c[len] != '\0')
 	{
 		len++;
 	}
 	for (; i < len; i++)
 	{
-		if (isdigit(c[i]) == 0)
+		if (!isdigit(c[i]))
 		{
 			printf("Error\n");
 			return (1);
