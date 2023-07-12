@@ -3,22 +3,22 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+int isnumber(char *c);
+
 /**
 * main - add two numbers
 * @argc: number of arguments
 * @argv: array of arguments
-*
 * Return: 0 (Success), 1 (Error)
 */
-
-int isnumber(char *c);
 
 int main(int argc, char *argv[])
 {
 	int i, strtonum,  sum = 0;
 
 	for (i = 1; i < argc; i++)
-	{	if (isnumber(argv[i] == 0)
+	{
+		if (isnumber(argv[i]) == 0)
 		{
 			strtonum = atoi(argv[i]);
 			sum += strtonum;
@@ -31,29 +31,23 @@ int main(int argc, char *argv[])
 }
 
 /**
-* isnumber -verify if it's a number
-* @char *c: character to verify
-*
+* isnumber - verify if it's a number
+* @c: character to verify
 * Return: 0 (Success), 1 (Error)
 */
+
 int isnumber(char *c)
 {
-	int len = 0, i = 0;
+	int i = 0;
 
-	while (c[len] != '\0')
-	{
-		len++;
-	}
-	for (; i < len; i++)
+	while (c[i] != '\0')
 	{
 		if (!isdigit(c[i]))
 		{
 			printf("Error\n");
 			return (1);
 		}
-		else
-		{
-			return (0);
-		}
+	i++;
 	}
+	return (0);
 }
