@@ -1,6 +1,16 @@
 #ifndef DOG_H
 #define DOG_H
 
+
+
+/**
+* struct dog - Short description
+* @name: First member char*
+* @age: Second member float
+* @owner: Third member char*
+*
+* Description: a structure of dog contain name, age and owner
+*/
 struct dog{
 char * name;
 float age;
