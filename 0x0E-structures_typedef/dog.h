@@ -9,12 +9,13 @@
 * @age: Second member float
 * @owner: Third member char*
 *
-* Description: a structure of dog contain name, age and owner
+* Description: Longer description
 */
-struct dog{
-char * name;
-float age;
-char * owner
+struct dog
+{
+	char * name;
+	float age;
+	char * owner;
 };
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
